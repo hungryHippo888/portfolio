@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Spotifly",
+    "image": "images/breakfast-food.jpeg",
+    "variant": "hover",
+    "front": "hover",
+    "back": "Back",
+    "description": "Song-guessing Spotify Wordle Variant. Personalized for you.",
+    "tech": ["React", "CSS", "REST API"],
+    "href": "https://github.com/hungryHippo888/development",
+    "color": "#1DB954"
+  },
+  {
+    "name": "Brock's Breakfast Foods",
+    "image": "images/brocks-breakfast.png",
+    "variant": "hover",
+    "front": "hover",
+    "back": "Back",
+    "description": "Responsive menu page with filtering, favoriting, sorting, and aggregator functionality. Built for Brunch.",
+    "tech": ["React", "CSS"],
+    "href": "https://github.com/hungryHippo888/development",
+    "color": "#680c07"
+  },
+  {
+    "name": "Hedgehog",
+    "image": "images/figma.jpeg",
+    "variant": "hover",
+    "front": "hover",
+    "back": "Back",
+    "description": "High-fidelity mockup for Hedgehog, an AI-driven mushroom farming startup. Mushrooms.",
+    "tech": ["Figma", "Balsamiq"],
+    "href": "https://github.com/hungryHippo888/development",
+    "color": "#ebdbca"
+  },
+  {
+    "name": "Website AB Testing",
+    "image": "images/figma.jpeg",
+    "variant": "hover",
+    "front": "hover",
+    "back": "Back",
+    "description": "Conducted AB Testing on 2 High Fidelity Mockups, then generated heatmap + replay of gaze motion. Optimized for Egg Tarts.",
+    "tech": ["JavaScript", "Figma"],
+    "href": "https://github.com/hungryHippo888/development",
+    "color": "#FFEC52"
+  }
+]
