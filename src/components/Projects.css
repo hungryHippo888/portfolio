@@ -1,0 +1,17 @@
+.Projects {
+  /* display: flex; */
+  color: #0F0F11;
+  font-size: xx-large;
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 15vh;
+  background-color: #FFF;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 5vw;
+  column-gap: 10vw;
+  flex-wrap: wrap;
+}

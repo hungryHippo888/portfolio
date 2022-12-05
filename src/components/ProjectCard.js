@@ -25,7 +25,8 @@ function ProjectCard({ name, image, description, tech, card, href, color }) {
     background: "-webkit-linear-gradient(left, white , " + color + ")",
     webkitBackgroundClip: "text",
     webkitTextFillColor: "transparent",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    fontSize: "2.4rem"
   }
 
   return (
@@ -59,8 +60,7 @@ function ProjectCard({ name, image, description, tech, card, href, color }) {
         <h2 style={cardTitle}>{name}</h2>
         <p>{description}</p>
         {tech.map((item) => (
-         <div className="techWrap">{item}</div>))}
-        {/* <p>asdfasdfasdfasdfa;lkj</p> */}
+         <div className="techWrap"><p>{item}</p></div>))}
       </div>
     </>
   );

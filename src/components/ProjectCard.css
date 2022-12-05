@@ -8,11 +8,14 @@
   color: #fff;
   padding-left: 1vw;
   padding-top: 1vh;
+  padding-bottom: 5vh;
   /* align-content: flex-start; */
   gap: 5vh;
-  /* justify-content: center; */
-  /* align-content: center; */
+  justify-content: center;
+  align-content: center;
+  text-align: center;
   box-shadow: 10px 20px 20px 10px #0f0f11;
+  overflow: hidden;
 }
 
 .titleGradient {
@@ -27,8 +30,12 @@
 .techWrap {
   display: flex;
   height: fit-content;
-  background-color: #fff;
-  color: #0f0f11;
+  /* background-color: #fff; */
+  border-color: #FFF;
+  border-style: solid;
+  color: #FFF;
   border-radius: 20px;
   padding: 5px;
+  overflow: hidden;
 }
+

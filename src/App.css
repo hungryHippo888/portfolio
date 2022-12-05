@@ -33,8 +33,7 @@ h2 {
 }
 
 .navBar {
-  font-family: "Roboto", sans-serif; 
-  font-size: medium;
+  font-family: "Roboto", sans-serif;
   color: #FEFEFE;
   display: flex;
   gap: 1vw;
@@ -54,7 +53,8 @@ h2 {
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   row-gap: 5vw;
   column-gap: 10vw;
   flex-wrap: wrap;
