@@ -17,18 +17,24 @@ function Projects() {
         </Row>
         <div className="container">
           {projectData.map((item) => (
-            <ProjectCard
-              card={item}
-              name={item.name}
-              image={item.image}
-              description={item.description}
-              tech={item.tech}
-              href={item.href}
-              color={item.color}
-            ></ProjectCard>
+            <Link to={`/${item.name}`}>
+              <ProjectCard
+                card={item}
+                name={item.name}
+                image={item.image}
+                description={item.description}
+                tech={item.tech}
+                href={item.href}
+                color={item.color}
+              ></ProjectCard>
+            </Link>
           ))}
         </div>
       </div>
+      <Routes>
+        <Route path="/Spotifly" element={<Projects></Projects>}></Route>
+        <Route path="/Hedgehog" element={<Projects></Projects>}></Route>
+      </Routes>
     </>
   );
 }

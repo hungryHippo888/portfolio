@@ -7,24 +7,25 @@ import ProjectCard from "./components/ProjectCard.js";
 import "./styles.scss";
 import { Link, Route, Routes } from "react-router-dom";
 import Projects from "./components/Projects";
+import TitlePage from "./components/TitlePage";
 
 function App() {
   return (
     <div className="App">
-      <div className="landingPage">
         <div className="navBar">
-          <Link to="/resume">
-          <h2>Resume</h2>
+          <Link to="/">
+            <h2>Home</h2>
           </Link>
-          <h2>About Us</h2>
-          <h2>Portfolio</h2>
+          <Link to="/resume">
+            <h2>Resume</h2>
+          </Link>
+          <Link to="/aboutUs">
+            <h2>About Us</h2>
+          </Link>
+          <Link to="/portfolio">
+            <h2>Portfolio</h2>
+          </Link>
         </div>
-        <div className="title">
-          <h1 className="titleGradient">Hello! I'm Michael,</h1>
-          <h1 className="titleGradient">a Brown University</h1>
-          <h1>___________.</h1>
-        </div>
-      </div>
       {/* <Projects></Projects> */}
       {/* <div className="Projects">
         <h1>Projects</h1>
@@ -33,6 +34,7 @@ function App() {
         </Row>
         <div className="container">
           {projectData.map((item) => (
+            <Link to={`/${item.name}`}>
             <ProjectCard
               card={item}
               name={item.name}
@@ -42,11 +44,16 @@ function App() {
               href={item.href}
               color={item.color}
             ></ProjectCard>
+            </Link>
           ))}
         </div>
-      </div> */}
+      </div>
       <Routes>
-        <Route path="/resume" element={<Projects></Projects>}></Route>
+        <Route path="/Spotifly" element={<Projects></Projects>}></Route>
+        <Route path="/Hedgehog" element={<Projects></Projects>}></Route>
+      </Routes> */}
+      <Routes>
+        <Route path="/" element={<><TitlePage/><Projects/></>}></Route>
       </Routes>
     </div>
   );
