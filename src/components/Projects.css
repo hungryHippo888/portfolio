@@ -6,6 +6,9 @@
   padding-right: 20vh;
   padding-top: 15vh;
   background-color: #FFF;
+  /* background-color: #1a1b1f; */
+  padding-bottom: 100px;
+
 }
 
 .container {
@@ -14,4 +17,5 @@
   row-gap: 5vw;
   column-gap: 10vw;
   flex-wrap: wrap;
+  padding-bottom: 5vh;
 }

@@ -5,6 +5,7 @@ import { React, useState } from "react";
 import ProjectCard from "./ProjectCard.js";
 import "../styles.scss";
 import "../App.css";
+import "./Projects.css";
 import { Link, Route, Routes } from "react-router-dom";
 
 function Projects() {
@@ -17,7 +18,7 @@ function Projects() {
         </Row>
         <div className="container">
           {projectData.map((item) => (
-            <Link to={`/${item.name}`}>
+            <Link style={{textDecoration: 'none'}} to={`/${item.name}`}>
               <ProjectCard
                 card={item}
                 name={item.name}
@@ -31,10 +32,6 @@ function Projects() {
           ))}
         </div>
       </div>
-      <Routes>
-        <Route path="/Spotifly" element={<Projects></Projects>}></Route>
-        <Route path="/Hedgehog" element={<Projects></Projects>}></Route>
-      </Routes>
     </>
   );
 }

@@ -3,6 +3,10 @@
   src: url("./Helvetica Neue LT Regular.otf") format("opentype");
 }
 
+html {
+  background-color: #0F0F11;
+}
+
 body{
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   // background-image: url('https://media.istockphoto.com/id/1146974104/photo/beige-abstract-background-light-center-spot-white-empty-light.jpg?b=1&s=170667a&w=0&k=20&c=3KVl14T1j1ugRYIv3x1ASd4UeEzemNm4D8jV5InYjCo=');
@@ -16,6 +20,13 @@ h1 {
 }
 
 h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  // font-size: 2.5em;
+  font-size: 3rem;
+}
+
+h3 {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   // font-weight: bold;
   font-size: 1.5em;  

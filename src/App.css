@@ -18,6 +18,7 @@
 h2 {
   font-weight: 200;
   margin: 0;
+  color: #FFF;
   /* font-style: italic; */
 }
 
@@ -32,25 +33,26 @@ h2 {
   font-size: 2.5em;
 }
 
-.navBar {
+/* .navBar {
   font-family: "Roboto", sans-serif;
-  color: #FEFEFE;
+  color: #FFF;
   display: flex;
+  flex-direction: row-reverse;
   gap: 1vw;
   position: absolute;
   top: 2%;
-  right: 5%;
-}
+  padding-right: 5%;
+  width: 100%;
+} */
 
-.Projects {
-  /* display: flex; */
+/* .Projects {
   color: #0F0F11;
   font-size: xx-large;
   padding-left: 20vh;
   padding-right: 20vh;
   padding-top: 15vh;
-  background-color: #FFF;
-}
+  background-color: #1a1b1f;
+} */
 
 .container {
   display: grid;
@@ -58,4 +60,15 @@ h2 {
   row-gap: 5vw;
   column-gap: 10vw;
   flex-wrap: wrap;
+}
+
+.gradientBorder {
+  background-image: linear-gradient(270deg, #60e4ff, #da0a6b 27%, #98027f 50%, #440068 74%, #5900ac);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: auto;
+  padding-bottom: 2px;
+  background-color: transparent;
 }

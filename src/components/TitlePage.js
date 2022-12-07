@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
-import projectData from "../assets/project-data.json";
 import { React, useState } from "react";
 import ProjectCard from "./ProjectCard.js";
 import "../styles.scss";

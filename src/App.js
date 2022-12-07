@@ -8,24 +8,13 @@ import "./styles.scss";
 import { Link, Route, Routes } from "react-router-dom";
 import Projects from "./components/Projects";
 import TitlePage from "./components/TitlePage";
+import Spotifly from "./components/Spotifly";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
-        <div className="navBar">
-          <Link to="/">
-            <h2>Home</h2>
-          </Link>
-          <Link to="/resume">
-            <h2>Resume</h2>
-          </Link>
-          <Link to="/aboutUs">
-            <h2>About Us</h2>
-          </Link>
-          <Link to="/portfolio">
-            <h2>Portfolio</h2>
-          </Link>
-        </div>
+      <NavBar></NavBar>
       {/* <Projects></Projects> */}
       {/* <div className="Projects">
         <h1>Projects</h1>
@@ -54,6 +43,9 @@ function App() {
       </Routes> */}
       <Routes>
         <Route path="/" element={<><TitlePage/><Projects/></>}></Route>
+        {/* <Route path="/resume" element={<></>}></Route> */}
+        <Route path="/Spotifly" element={<Spotifly></Spotifly>}></Route>
+        <Route path="/Hedgehog" element={<Projects></Projects>}></Route>
       </Routes>
     </div>
   );
