@@ -13,7 +13,6 @@ import Spotifly from "./components/Spotifly";
 import BrockPage from "./components/BrockPage";
 import Hedgehog from "./components/Hedgehog";
 
-
 function App() {
   return (
     <div className="App">
@@ -45,11 +44,40 @@ function App() {
         <Route path="/Hedgehog" element={<Projects></Projects>}></Route>
       </Routes> */}
       <Routes>
-        <Route path="/" element={<><TitlePage/><Projects/></>}></Route>
+        <Route
+          path="/"
+          element={
+            <>
+              <TitlePage />
+              <Projects />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/home"
+          element={
+            <>
+              <TitlePage />
+              <Projects />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/portfolio"
+          element={
+            <>
+              <TitlePage />
+              <Projects />
+            </>
+          }
+        ></Route>
         {/* <Route path="/resume" element={<></>}></Route> */}
         <Route path="/Spotifly" element={<Spotifly></Spotifly>}></Route>
         <Route path="/Hedgehog" element={<Hedgehog></Hedgehog>}></Route>
-        <Route path="/Brock's-Breakfast-Foods" element={<BrockPage></BrockPage>}></Route>
+        <Route
+          path="/Brock's-Breakfast-Foods"
+          element={<BrockPage></BrockPage>}
+        ></Route>
       </Routes>
     </div>
   );

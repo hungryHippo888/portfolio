@@ -9,7 +9,7 @@ import { Link, Route, Routes } from "react-router-dom";
 function NavBar() {
   return (
     <div className="navBar">
-      <Link style={{ textDecoration: "none" }} to="/">
+      <Link style={{ textDecoration: "none" }} to="/home">
         <h3>Home</h3>
       </Link>
       {/* <Link style={{ textDecoration: "none" }} to="/resume">
