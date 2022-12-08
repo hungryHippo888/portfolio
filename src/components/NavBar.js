@@ -12,11 +12,11 @@ function NavBar() {
       <Link style={{ textDecoration: "none" }} to="/">
         <h3>Home</h3>
       </Link>
-      <Link style={{ textDecoration: "none" }} to="/resume">
+      {/* <Link style={{ textDecoration: "none" }} to="/resume">
         <h3>Resume</h3>
-      </Link>
-      <Link style={{ textDecoration: "none" }} to="/aboutUs">
-        <h3>About Us</h3>
+      </Link> */}
+      <Link style={{ textDecoration: "none" }} to="/aboutMe">
+        <h3>About Me</h3>
       </Link>
       <Link style={{ textDecoration: "none" }} to="/portfolio">
         <h3>Portfolio</h3>

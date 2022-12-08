@@ -9,102 +9,125 @@ import "./ProjectPages.css";
 import { Link, Route, Routes } from "react-router-dom";
 import SpotiflyUI from "../images/SpotiflyUI.png";
 import SpotiflyOutput from "../images/SpotiflyOutput.png";
-import SpotiflyModal from "../images/SpotiflyModal.png";
-import OAuth from "../images/SpotiflyOAuth.png";
+import HedgehogModal from "../images/HedgehogModal.png";
+import HedgehogProcess from "../images/HedgehogProcess.png";
 
 function Hedgehog() {
   return (
     <div className="bigPage">
       <Container fluid className="containerPadding">
         <Row className="d-grid gap-3 header">
-          <h2 style={{ color: "#1DB954" }}>Hedgehog</h2>
-          <p>React Web App</p>
+          <h2 style={{ color: "#783F04" }}>Hedgehog</h2>
+          <p style={{ color: "#783F04" }}>UI Design for Startup</p>
         </Row>
       </Container>
       <Container className="noPadding">
         <Col>
           <Row className="d-grid gap-3">
-            <p>A Song-guessing Spotify Wordle Variant.</p>
-            <p>Personalized for you.</p>
-            <p>2020</p>
+            <p>
+              A high-fidelity mockup for Hedgehog, an AI-driven mushroom farming
+              startup.
+            </p>
+            <p>Mushrooms.</p>
+            <p>2022</p>
           </Row>
         </Col>
 
         <Col>
           <Row className="d-grid gap-3">
             <p>
-              After personal frustration of playing song-based guessing games
-              and embarrassingly knowing none of the played songs, I decided to
-              come up with my own song guessing game.
+              This high-fidelity mockup is built for mushroom farmers to
+              overview the status of the farm, plan out planting and harvesting
+              dates, and interact with the robotics.
             </p>
           </Row>
         </Col>
       </Container>
-      <div className="imageWrapper">
-        <img src={SpotiflyUI} alt="Spotifly UI" className="image"></img>
+      <div className="imageWrapper" style={{ background: "none" }}>
+        <img src={HedgehogModal} alt="Spotifly UI" className="imageVert"></img>
       </div>
       <Container fluid className="containerPadding">
         <Row className="d-grid gap-3 rowPadding">
           <h2>Introduction</h2>
           <p>
-            Over the summer, my friends and I would always play a song guessing
-            game with our Spotify playlists, where we would listen to songs and
-            then try and guess the song title.
+            As part of our UI/UX class, we were tasked with creating a
+            high-fidelity prototype for a Y Combinator-backed startup in teams
+            of four. After scrolling through the list of W22 startups, we
+            stumbled across Hedgehog.
           </p>
           <p>
-            I never won. So, I decided to try and make something that could help
-            me.
+            Hedgehog is designing AI-driven robots to optimize the mushroom
+            farming process by optimizing growing conditions to increase yield.
           </p>
           <p>
-            I began working on this project as a fun way to learn the basics of
-            working with APIs and React.
+            Our team had 2 members who had prior experience working on a farm,
+            and we all loved the company's goal. So, we decided to build out a
+            high-fidelity mockup that allows mushroom farmers that interacts
+            with Hedgehog's robots to overview the status of the farm and plan
+            out planting and harvesting dates.
           </p>
         </Row>
         <Row className="d-grid gap-3">
-          <h2>The Technical</h2>
+          <h2>The Design Process</h2>
           <p>
-            The most difficult challenge for me was figuring out how APIs work.
-            To start, I watched a bunch of Youtube videos on REST API
-            fundamentals, and then dived into the Spotify API Documentation.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            ea fugit veniam porro necessitatibus illo, dignissimos dolore. Quos
+            consequuntur cupiditate quod obcaecati ab fuga excepturi, assumenda
+            saepe deleniti dicta pariatur?
           </p>
           <p>
-            To personalize a user's Spotifly experience, I needed to connect a
-            user to their Spotify account and retrieve information about their
-            favorited songs. To do so, I followed the Authorization portion of
-            the Spotify development guide, which stepped through how to set up
-            the web app as the client.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            ea fugit veniam porro necessitatibus illo, dignissimos dolore. Quos
+            consequuntur cupiditate quod obcaecati ab fuga excepturi, assumenda
+            saepe deleniti dicta pariatur?
           </p>
         </Row>
       </Container>
       <div className="imageWrapper" style={{ background: "#FFF" }}>
-        <img src={OAuth} alt="Spotifly UI" className="image"></img>
+        <img src={HedgehogProcess} alt="Process" className="image"></img>
       </div>
       <Container fluid className="containerPadding">
         <Row className="d-grid gap-3 rowPadding">
           <p>
-            After setting up access to the user's Spotify account, I retrieved
-            their favorited songs. Then, I began working on the Wordle Variant
-            itself.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            ea fugit veniam porro necessitatibus illo, dignissimos dolore. Quos
+            consequuntur cupiditate quod obcaecati ab fuga excepturi, assumenda
+            saepe deleniti dicta pariatur?
           </p>
           <p>
-            It was around this point in time that after sharing this idea with
-            some of my coworkers, they explained that Heardle, another Spotify
-            Wordle variant, was already a thing :(
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            ea fugit veniam porro necessitatibus illo, dignissimos dolore. Quos
+            consequuntur cupiditate quod obcaecati ab fuga excepturi, assumenda
+            saepe deleniti dicta pariatur?
           </p>
           <p>
-            In an effort to nevertheless complete the project, I decided to try
-            and create the traditional Wordle guessing grid. To start, I
-            initialized a grid, currRow, currCol, and isGameOver useStates. By
-            using Event Listeners, I took in input from different key presses,
-            and mapped the enter key to guess songs.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            ea fugit veniam porro necessitatibus illo, dignissimos dolore. Quos
+            consequuntur cupiditate quod obcaecati ab fuga excepturi, assumenda
+            saepe deleniti dicta pariatur?
           </p>
-          <p>After figuring out the rules for the game, I created a Modal that is displayed at the first time a user opens the page. Below is a screenshot of what it looks like :)</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            ea fugit veniam porro necessitatibus illo, dignissimos dolore. Quos
+            consequuntur cupiditate quod obcaecati ab fuga excepturi, assumenda
+            saepe deleniti dicta pariatur?
+          </p>
         </Row>
       </Container>
-      <div className="imageWrapper" style={{background: "none"}}>
-        <img src={SpotiflyOutput} alt="Spotifly Output" className="image"></img>
-        {/* <img src={SpotiflyModal} alt="Spotifly Modal" className="twoColImg"></img> */}
-        </div>
+      <div className="imageWrapper" style={{ background: "none" }}>
+        <iframe
+          className="figma"
+          title="Hifi Prototype"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FTffyoyKvKhigzSvNilhPPV%2FHedgehog-Hi-Fi%3Fnode-id%3D0%253A1%26t%3Dt17THkoWe3KqG3mt-1"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          className="figma"
+          title="Hifi Prototype"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTffyoyKvKhigzSvNilhPPV%2FHedgehog-Hi-Fi%3Fpage-id%3D0%253A1%26node-id%3D100%253A3%26viewport%3D435%252C336%252C0.11%26scaling%3Dcontain%26starting-point-node-id%3D2%253A4"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   );
 }

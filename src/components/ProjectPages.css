@@ -37,6 +37,13 @@ h2 {
     display: block;
 }
 
+.imageVert {
+    width: 35%;
+    height: 80%;
+    margin: auto;
+    display: block;
+}
+
 .imageWrapper {
     background-color: #1DB954;
     width: 75vw;
@@ -58,4 +65,9 @@ h2 {
     padding-left: 0;
     margin-left: 0;
     max-width: 65vw;
+}
+
+.figma {
+    height: 74vh;
+    width: 74vw;
 }

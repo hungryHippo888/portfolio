@@ -142,21 +142,6 @@ function BrockPage() {
         </Row>
       </Container>
       <Container fluid className="containerPadding">
-        <Row className="d-grid gap-3 rowPadding">
-          <h2>The Technical</h2>
-          <p>
-            After a basic design, I tried to get down a minimally functioning
-            site with all necessary functionality. I soon realized that was
-            easier said than done.
-          </p>
-          <p>
-            After heavily relying on the lab code for mapping through the JSON
-            file, I began working on trying to filter by dietary restriction and
-            calories. From going through the slides and a lot of Googling, I
-            figured out a way to accomplish this through clever usage of logical
-            operators.
-          </p>
-        </Row>
         <Row className="d-grid gap-3">
           <h2>The Output</h2>
           <p>
