@@ -9,6 +9,7 @@ import "./Projects.css";
 import { Link, Route, Routes } from "react-router-dom";
 
 function Projects() {
+
   return (
     <>
       <div className="Projects">
@@ -18,7 +19,7 @@ function Projects() {
         </Row>
         <div className="container">
           {projectData.map((item) => (
-            <Link style={{textDecoration: 'none'}} to={`/${item.name}`}>
+            <Link style={{textDecoration: 'none'}} to={`/${item.name.replace(/\s+/g, '-')}`}>
               <ProjectCard
                 card={item}
                 name={item.name}

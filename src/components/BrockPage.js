@@ -14,7 +14,7 @@ import SpotiflyModal from "../images/SpotiflyModal.png";
 
 import OAuth from "../images/SpotiflyOAuth.png";
 
-function Spotifly() {
+function BrockPage() {
   return (
     <div className="bigPage">
       <Container fluid className="containerPadding">
@@ -111,4 +111,4 @@ function Spotifly() {
   );
 }
 
-export default Spotifly;
+export default BrockPage;

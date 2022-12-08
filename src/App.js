@@ -8,8 +8,10 @@ import "./styles.scss";
 import { Link, Route, Routes } from "react-router-dom";
 import Projects from "./components/Projects";
 import TitlePage from "./components/TitlePage";
-import Spotifly from "./components/Spotifly";
 import NavBar from "./components/NavBar";
+import Spotifly from "./components/Spotifly";
+import BrockPage from "./components/BrockPage";
+
 
 function App() {
   return (
@@ -46,6 +48,7 @@ function App() {
         {/* <Route path="/resume" element={<></>}></Route> */}
         <Route path="/Spotifly" element={<Spotifly></Spotifly>}></Route>
         <Route path="/Hedgehog" element={<Projects></Projects>}></Route>
+        <Route path="/Brock's-Breakfast-Foods" element={<BrockPage></BrockPage>}></Route>
       </Routes>
     </div>
   );

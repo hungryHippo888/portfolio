@@ -18,10 +18,43 @@ p {
 }
 
 h2 {
-    color: #1DB954;
+    /* color: #1DB954; */
 }
 
 .containerPadding {
     padding-bottom: 3%;
+    width: 74vw;
 }
 
+.rowPadding {
+    padding-bottom: 3%;
+}
+
+.image {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.imageWrapper {
+    background-color: #1DB954;
+    width: 75vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-bottom: 5vh;
+}
+
+.twoColImgWrapper {
+    display: flex;
+    margin: auto;
+}
+
+.twoColImg {
+    width: 35vw;
+}
+
+.noPadding {
+    padding-left: 0;
+    margin-left: 0;
+}
