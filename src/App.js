@@ -11,6 +11,7 @@ import TitlePage from "./components/TitlePage";
 import NavBar from "./components/NavBar";
 import Spotifly from "./components/Spotifly";
 import BrockPage from "./components/BrockPage";
+import Hedgehog from "./components/Hedgehog";
 
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
         <Route path="/" element={<><TitlePage/><Projects/></>}></Route>
         {/* <Route path="/resume" element={<></>}></Route> */}
         <Route path="/Spotifly" element={<Spotifly></Spotifly>}></Route>
-        <Route path="/Hedgehog" element={<Projects></Projects>}></Route>
+        <Route path="/Hedgehog" element={<Hedgehog></Hedgehog>}></Route>
         <Route path="/Brock's-Breakfast-Foods" element={<BrockPage></BrockPage>}></Route>
       </Routes>
     </div>

@@ -57,4 +57,5 @@ h2 {
 .noPadding {
     padding-left: 0;
     margin-left: 0;
+    max-width: 65vw;
 }

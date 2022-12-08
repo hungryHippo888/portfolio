@@ -7,106 +7,167 @@ import "../styles.scss";
 import "../App.css";
 import "./ProjectPages.css";
 import { Link, Route, Routes } from "react-router-dom";
-import SpotiflyUI from "../images/SpotiflyUI.png";
-import SpotiflyOutput from "../images/SpotiflyOutput.png";
-import SpotiflyModal from "../images/SpotiflyModal.png";
-
-
-import OAuth from "../images/SpotiflyOAuth.png";
+import BrockGif from "../images/BrockGif.gif";
+import BrockInitialUI from "../images/BrockInitialUI.png";
 
 function BrockPage() {
   return (
     <div className="bigPage">
       <Container fluid className="containerPadding">
         <Row className="d-grid gap-3 header">
-          <h2 style={{ color: "#1DB954" }}>Spotifly</h2>
-          <p>React Web App</p>
+          <h2 style={{ color: "#d7b29d" }}>Brock's Breakfast Foods</h2>
+          <p style={{ color: "#d7b29d" }}>React Web App</p>
         </Row>
       </Container>
       <Container className="noPadding">
         <Col>
           <Row className="d-grid gap-3">
-            <p>A Song-guessing Spotify Wordle Variant.</p>
-            <p>Personalized for you.</p>
-            <p>2020</p>
+            <p>
+              A Responsive menu page with filtering, favoriting, sorting, and
+              aggregator functionality.{" "}
+            </p>
+            <p>Built for Brunch.</p>
+            <p>2022</p>
           </Row>
         </Col>
 
         <Col>
           <Row className="d-grid gap-3">
             <p>
-              After personal frustration of playing song-based guessing games
-              and embarrassingly knowing none of the played songs, I decided to
-              come up with my own song guessing game.
+              This app is designed as a menu for a brunch restaurant. With a
+              coffee-colored theming and dark animated blocks for the different
+              menu items, I was going for a minimalistic, clean looking menu
+              website for a brunch restaurant to display its menu items in a
+              highly digestable manner.
             </p>
           </Row>
         </Col>
       </Container>
-      <div className="imageWrapper">
-        <img src={SpotiflyUI} alt="Spotifly UI" className="image"></img>
+      <div className="imageWrapper" style={{ background: "none" }}>
+        <img src={BrockGif} alt="Spotifly UI" className="image"></img>
       </div>
       <Container fluid className="containerPadding">
         <Row className="d-grid gap-3 rowPadding">
           <h2>Introduction</h2>
           <p>
-            Over the summer, my friends and I would always play a song guessing
-            game with our Spotify playlists, where we would listen to songs and
-            then try and guess the song title.
+            I am a firm believer that the best meal is brunch. From eggs
+            benedict to omelettes, brunch meals are the ideal way to start of a
+            Sunday morning. Even at Brown, the best meals were VDub's waffles or
+            Andrews' burrito bowls.
           </p>
           <p>
-            I never won. So, I decided to try and make something that could help
-            me.
+            For my UI/UX course, we were tasked to create a responsive webpage
+            that specifically had filtering, favoriting, sorting, and aggregator
+            functionality.
           </p>
           <p>
-            I began working on this project as a fun way to learn the basics of
-            working with APIs and React.
+            To accomplish the task, I sought ought to create a minimalistic,
+            responsive menu page for brunch menu items.
+          </p>
+          <p>
+            To make my menu more accomodating, I wanted to give users the
+            ability to filter by various dietary restrictions, such as gluten
+            free. I also gave users the option to filter for food items less
+            than 250 calories (for those on a calorie deficit.)
+          </p>
+          <p>
+            P.S. (I know the title is Brock's Breakfast Foods; I just thought
+            that sounded better :))
           </p>
         </Row>
         <Row className="d-grid gap-3">
-          <h2>The Technical</h2>
+          <h2>The Initial Design</h2>
           <p>
-            The most difficult challenge for me was figuring out how APIs work.
-            To start, I watched a bunch of Youtube videos on REST API
-            fundamentals, and then dived into the Spotify API Documentation.
+            After deciding that I wanted to create a menu for a brunch spot, I
+            began designing a prototype of what I wanted the page to look like.
           </p>
           <p>
-            To personalize a user's Spotifly experience, I needed to connect a
-            user to their Spotify account and retrieve information about their
-            favorited songs. To do so, I followed the Authorization portion of
-            the Spotify development guide, which stepped through how to set up
-            the web app as the client.
+            I first began with choosing a tyopgraphy and color palette (which I
+            found through random color palette generator with coffee-esque
+            colors in mind).
           </p>
+          <p>
+            After seeing a really cool website online that had cards that can
+            flip, I decided I wanted to find a way to implement this too.
+          </p>
+          <p>Below is the initial design I worked with.</p>
         </Row>
       </Container>
-      <div className="imageWrapper" style={{ background: "#FFF" }}>
-        <img src={OAuth} alt="Spotifly UI" className="image"></img>
+      <div className="imageWrapper" style={{ background: "#d7b29d" }}>
+        <img src={BrockInitialUI} alt="Spotifly UI" className="image"></img>
       </div>
       <Container fluid className="containerPadding">
         <Row className="d-grid gap-3 rowPadding">
+          <h2>The Technical</h2>
           <p>
-            After setting up access to the user's Spotify account, I retrieved
-            their favorited songs. Then, I began working on the Wordle Variant
-            itself.
+            After a basic design, I tried to get down a minimally functioning
+            site with all necessary functionality. I soon realized that was
+            easier said than done.
           </p>
           <p>
-            It was around this point in time that after sharing this idea with
-            some of my coworkers, they explained that Heardle, another Spotify
-            Wordle variant, was already a thing :(
+            After heavily relying on the lab code for mapping through the JSON
+            file, I began working on trying to filter by dietary restriction and
+            calories. From going through the slides and a lot of Googling, I
+            figured out a way to accomplish this through clever usage of logical
+            operators.
+          </p>
+        </Row>
+        <Row className="d-grid gap-3 rowPadding">
+          <h2>Design Iterations + Feedback</h2>
+          <p>
+            With a functional page, I was excited to show off my work to my
+            friends. After sharing my work, I got feedback from my friends, with
+            suggestions that the filter circles were hard to use because you
+            didn't know if the filter was turned on or off. Moreover, I got
+            feeback to change the green color, remove the green background, and
+            change the button shape.
           </p>
           <p>
-            In an effort to nevertheless complete the project, I decided to try
-            and create the traditional Wordle guessing grid. To start, I
-            initialized a grid, currRow, currCol, and isGameOver useStates. By
-            using Event Listeners, I took in input from different key presses,
-            and mapped the enter key to guess songs.
+            With these critiques in mind, I updated the design of my page
+            accordingly.
           </p>
-          <p>After figuring out the rules for the game, I created a Modal that is displayed at the first time a user opens the page. Below is a screenshot of what it looks like :)</p>
+        </Row>
+        <Row className="d-grid gap-3">
+          <h2>Key Takeaway</h2>
+          <p>
+            In prior projects, UI/UX emphasized the importance of the iterative
+            process. Nevertheless, from this project in particular, I learned
+            how important the iterative process is, and the importance of going
+            through multiple prototypes before officially designing. I had to
+            effectively work twice as long updating my web app after recieving
+            feedback. If I got feedback at the prototype stage, then I wouldn't
+            have needed to redesign the page.
+          </p>
+          <p>I learned from my mistakes :)</p>
         </Row>
       </Container>
-      <div className="imageWrapper" style={{background: "none"}}>
-        <img src={SpotiflyOutput} alt="Spotifly Output" className="image"></img>
-        {/* <img src={SpotiflyModal} alt="Spotifly Modal" className="twoColImg"></img> */}
-        </div>
+      <Container fluid className="containerPadding">
+        <Row className="d-grid gap-3 rowPadding">
+          <h2>The Technical</h2>
+          <p>
+            After a basic design, I tried to get down a minimally functioning
+            site with all necessary functionality. I soon realized that was
+            easier said than done.
+          </p>
+          <p>
+            After heavily relying on the lab code for mapping through the JSON
+            file, I began working on trying to filter by dietary restriction and
+            calories. From going through the slides and a lot of Googling, I
+            figured out a way to accomplish this through clever usage of logical
+            operators.
+          </p>
+        </Row>
+        <Row className="d-grid gap-3">
+          <h2>The Output</h2>
+          <p>
+            Below is a GIF of a user favoriting the Belgian Waffle, flipping the
+            card to see its information, and starting all over.
+          </p>
+        </Row>
+      </Container>
+      <div className="imageWrapper" style={{ background: "none" }}>
+        <img src={BrockGif} alt="Spotifly UI" className="image"></img>
+      </div>
     </div>
   );
 }

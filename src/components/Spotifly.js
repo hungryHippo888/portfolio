@@ -11,7 +11,6 @@ import SpotiflyUI from "../images/SpotiflyUI.png";
 import SpotiflyOutput from "../images/SpotiflyOutput.png";
 import SpotiflyModal from "../images/SpotiflyModal.png";
 
-
 import OAuth from "../images/SpotiflyOAuth.png";
 
 function Spotifly() {
@@ -100,13 +99,27 @@ function Spotifly() {
             using Event Listeners, I took in input from different key presses,
             and mapped the enter key to guess songs.
           </p>
-          <p>After figuring out the rules for the game, I created a Modal that is displayed at the first time a user opens the page. Below is a screenshot of what it looks like :)</p>
+          <p>
+            After figuring out the rules for the game, I created a Modal that is
+            displayed at the first time a user opens the page. Below is a
+            screenshot of what it looks like :)
+          </p>
         </Row>
       </Container>
-      <div className="imageWrapper" style={{background: "none"}}>
+      <Container fluid className="containerPadding">
+        <Row className="d-grid gap-3">
+          <h2>The Output</h2>
+          <p>
+            Below is a screenshot of a user who guessed the song "hello" within
+            2 seconds of the music playing. Impressive!
+          </p>
+        </Row>
+      </Container>
+
+      <div className="imageWrapper" style={{ background: "none" }}>
         <img src={SpotiflyOutput} alt="Spotifly Output" className="image"></img>
         {/* <img src={SpotiflyModal} alt="Spotifly Modal" className="twoColImg"></img> */}
-        </div>
+      </div>
     </div>
   );
 }
