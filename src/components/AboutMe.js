@@ -15,7 +15,7 @@ function AboutMe() {
     <div className="aboutMe">
       <div style={{backgroundColor: "none", position: "relative"}}>
       {/* <iframe src="https://embed.lottiefiles.com/animation/53887" title="hello"></iframe>    */}
-      <iframe src="https://embed.lottiefiles.com/animation/9911" title="animation"></iframe>   
+      <iframe src="https://embed.lottiefiles.com/animation/9911" className="iframe" title="animation"></iframe>   
       </div>
       <h2 className="titleGradient">Hello. I'm Hippo.</h2>
       <p>

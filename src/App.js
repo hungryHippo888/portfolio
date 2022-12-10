@@ -2,10 +2,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Row from "react-bootstrap/Row";
 import projectData from "./assets/project-data.json";
-import { React, useState } from "react";
+import { React, useEffect} from "react";
 import ProjectCard from "./components/ProjectCard.js";
 import "./styles.scss";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes} from "react-router-dom";
 import Projects from "./components/Projects";
 import TitlePage from "./components/TitlePage";
 import NavBar from "./components/NavBar";
@@ -18,6 +18,7 @@ import Photos from "./components/Photos.js";
 
 function App() {
   return (
+    
     <div className="App">
       <NavBar></NavBar>
       {/* <Projects></Projects> */}
@@ -49,6 +50,15 @@ function App() {
       <Routes>
         <Route
           path="/"
+          element={
+            <>
+              <TitlePage />
+              <Projects />
+            </>
+          }
+        ></Route>
+                <Route
+          path="/portfolio"
           element={
             <>
               <TitlePage />

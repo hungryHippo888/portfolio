@@ -9,17 +9,22 @@ import "./Projects.css";
 import { Link, Route, Routes } from "react-router-dom";
 
 function Projects() {
-
   return (
     <>
       <div className="Projects">
         <h1>Projects</h1>
-        <Row style={{ color: "black", paddingBottom: "20px" }}>
+        <Row style={{ paddingTop: "1vh", paddingBottom: "5vh" }}>
           Here's what I'm working on right now!
         </Row>
         <div className="container">
           {projectData.map((item) => (
-            <Link style={{textDecoration: 'none'}} to={`/${item.name.replace(/\s+/g, '-')}`}>
+            <Link
+              style={{ textDecoration: "none" }}
+              to={`/${item.name.replace(/\s+/g, "-")}`}
+              onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+              }}
+            >
               <ProjectCard
                 card={item}
                 name={item.name}
