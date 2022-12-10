@@ -16,7 +16,7 @@ function TitlePage() {
         <div className="animatedTyping">
         <Typewriter
           options={{
-            strings: ["student.", "developer."],
+            strings: ["student.", "developer.", "photographer.", "data scientist"],
             autoStart: true,
             loop: true,
             pauseFor: 2000,
@@ -26,7 +26,6 @@ function TitlePage() {
           }}
         />
         </div>
-        {/* <h1>___________.</h1> */}
       </div>
     </div>
   );

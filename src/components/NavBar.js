@@ -18,8 +18,8 @@ function NavBar() {
       <Link style={{ textDecoration: "none" }} to="/aboutMe">
         <h3>About Me</h3>
       </Link>
-      <Link style={{ textDecoration: "none" }} to="/portfolio">
-        <h3>Portfolio</h3>
+      <Link style={{ textDecoration: "none" }} to="/photos">
+        <h3>Photos</h3>
       </Link>
       {/* <div className="gradientBorder"></div> */}
     </div>

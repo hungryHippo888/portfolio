@@ -1,0 +1,22 @@
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    word-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    color: white;
+    max-height: 100vh;
+    gap: 10vh;
+    text-align: center;
+}
+
+iframe {
+    /* min-width: 300px;
+    min-height: 400px; */
+    padding: 0;
+    margin: 0;
+    transform: scale(2.0); /* Equal to scaleX(0.7) scaleY(0.7) */
+  }
