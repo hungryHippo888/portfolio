@@ -14,6 +14,7 @@ import BrockPage from "./components/BrockPage";
 import Hedgehog from "./components/Hedgehog";
 import AboutMe from "./components/AboutMe";
 import Photos from "./components/Photos.js";
+import ABTesting from "./components/ABTesting";
 
 
 function App() {
@@ -84,6 +85,7 @@ function App() {
         {/* <Route path="/resume" element={<></>}></Route> */}
         <Route path="/Spotifly" element={<Spotifly></Spotifly>}></Route>
         <Route path="/Hedgehog" element={<Hedgehog></Hedgehog>}></Route>
+        <Route path="/Website-A/B-Testing" element={<ABTesting></ABTesting>}></Route>
         <Route path="/AboutMe" element={<AboutMe></AboutMe>}></Route>
         <Route
           path="/Brock's-Breakfast-Foods"

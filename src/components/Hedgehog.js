@@ -26,7 +26,7 @@ function Hedgehog() {
         <Col>
           <Row className="d-grid gap-3">
             <p>
-              A high-fidelity mockup for Hedgehog, an AI-driven mushroom farming
+              A high-fidelity prototype for Hedgehog, an AI-driven mushroom farming
               startup.
             </p>
             <p>Mushrooms.</p>
@@ -37,7 +37,7 @@ function Hedgehog() {
         <Col>
           <Row className="d-grid gap-3">
             <p>
-              This high-fidelity mockup is built for mushroom farmers to
+              This high-fidelity prototype is built for mushroom farmers to
               overview the status of the farm, plan out planting and harvesting
               dates, and interact with the robotics.
             </p>
@@ -66,7 +66,7 @@ function Hedgehog() {
           <p>
             Our team had 2 members who had prior experience working on a farm,
             and we all loved the company's goal. So, we decided to build out a
-            high-fidelity mockup that allows mushroom farmers that interacts
+            high-fidelity prototype that allows mushroom farmers that interacts
             with Hedgehog's robots to overview the status of the farm and plan
             out planting and harvesting dates.
           </p>
@@ -80,7 +80,7 @@ function Hedgehog() {
           <p>
             The picture about showcases a brief overview of the transformation
             from our initial sketches to final prototype. The first step of our
-            design process was figuring out what we wanted our mockup to provide
+            design process was figuring out what we wanted our prototype to provide
             to the user. Since the product is targeted towards mushroom users,
             we wanted to create an app that could help users better understand
             analytics of their mushroom clusters and notify users on any

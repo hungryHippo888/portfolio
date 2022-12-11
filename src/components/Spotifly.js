@@ -27,7 +27,7 @@ function Spotifly() {
           <Row className="d-grid gap-3">
             <p>A Song-guessing Spotify Wordle Variant.</p>
             <p>Personalized for you.</p>
-            <p>2020</p>
+            <p>2022</p>
           </Row>
         </Col>
 

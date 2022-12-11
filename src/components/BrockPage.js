@@ -24,7 +24,7 @@ function BrockPage() {
           <Row className="d-grid gap-3">
             <p>
               A Responsive menu page with filtering, favoriting, sorting, and
-              aggregator functionality.{" "}
+              aggregator functionality.
             </p>
             <p>Built for Brunch.</p>
             <p>2022</p>

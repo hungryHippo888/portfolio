@@ -27,18 +27,18 @@
     "variant": "hover",
     "front": "hover",
     "back": "Back",
-    "description": "High-fidelity mockup for Hedgehog, an AI-driven mushroom farming startup. Mushrooms.",
+    "description": "High-fidelity prototype for Hedgehog, an AI-driven mushroom farming startup. Mushrooms.",
     "tech": ["Figma", "Balsamiq"],
     "href": "https://github.com/hungryHippo888/development",
     "color": "#783F04"
   },
   {
-    "name": "Website AB Testing",
+    "name": "Website A/B Testing",
     "image": "images/figma.jpeg",
     "variant": "hover",
     "front": "hover",
     "back": "Back",
-    "description": "Conducted AB Testing on 2 High Fidelity Mockups, then generated heatmap + replay of gaze motion. Optimized for Egg Tarts.",
+    "description": "Conducted A/B testing on 2 high fidelity prototypes, then generated eye tracking heatmap + replay of gaze motion. Optimized for Egg Tarts.",
     "tech": ["JavaScript", "Figma"],
     "href": "https://github.com/hungryHippo888/development",
     "color": "#FFEC52"
