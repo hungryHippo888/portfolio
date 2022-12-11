@@ -22,8 +22,8 @@ function ABTesting() {
     <div className="bigPage">
       <Container fluid className="containerPadding">
         <Row className="d-grid gap-3 header">
-          <h2 style={{ color: "#FFEC52" }}>Website AB Testing</h2>
-          <p style={{ color: "#FFEC52" }}>A/B Testing + Eye Tracking</p>
+          <h2 style={{ color: "#C75260" }}>Website AB Testing</h2>
+          <p style={{ color: "#C75260" }}>A/B Testing + Eye Tracking</p>
         </Row>
       </Container>
       <Container className="noPadding">
@@ -47,7 +47,7 @@ function ABTesting() {
           </Row>
         </Col>
       </Container>
-      <div className="imageWrapper" style={{ backgroundColor: "#C75260" }}>
+      <div className="imageWrapper" style={{ backgroundColor: "#FFEC52" }}>
         <div className="grid2">
           <Image src={A} alt="Bakery A replay"></Image>
           <Image src={B} alt="Bakery B replay"></Image>
@@ -130,7 +130,7 @@ function ABTesting() {
           <p>The heatmap below further supports the conclusions made above.</p>
         </Row>
       </Container>
-      <div className="imageWrapper" style={{ backgroundColor: "#FFEC52" }}>
+      <div className="imageWrapper" style={{ backgroundColor: "#C75260" }}>
         <div className="grid2">
           <Image src={A_heatmap} alt="Bakery A Heatmap"></Image>
           <Image src={B_heatmap} alt="Bakery B Heatmap"></Image>

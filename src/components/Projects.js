@@ -16,26 +16,26 @@ function Projects() {
         <Row style={{ paddingTop: "1vh", paddingBottom: "5vh" }}>
           Here's what I'm working on right now!
         </Row>
-        <div className="container">
-          {projectData.map((item) => (
-            <Link
-              style={{ textDecoration: "none" }}
-              to={`/${item.name.replace(/\s+/g, "-")}`}
-              onClick={() => {
-                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-              }}
-            >
-              <ProjectCard
-                card={item}
-                name={item.name}
-                image={item.image}
-                description={item.description}
-                tech={item.tech}
-                href={item.href}
-                color={item.color}
-              ></ProjectCard>
-            </Link>
-          ))}
+        <div className="projectsGrid">
+        {projectData.map((item) => (
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${item.name.replace(/\s+/g, "-")}`}
+            onClick={() => {
+              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+            }}
+          >
+            <ProjectCard
+              card={item}
+              name={item.name}
+              image={item.image}
+              description={item.description}
+              tech={item.tech}
+              href={item.href}
+              color={item.color}
+            ></ProjectCard>
+          </Link>
+        ))}
         </div>
       </div>
     </>

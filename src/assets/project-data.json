@@ -1,7 +1,7 @@
 [
   {
     "name": "Spotifly",
-    "image": "images/breakfast-food.jpeg",
+    "image": "SpotiflyOutput",
     "variant": "hover",
     "front": "hover",
     "back": "Back",
@@ -11,19 +11,19 @@
     "color": "#1DB954"
   },
   {
-    "name": "Brock's Breakfast Foods",
-    "image": "images/brocks-breakfast.png",
+    "name": "Website A/B Testing",
+    "image": "B_heatmap",
     "variant": "hover",
     "front": "hover",
     "back": "Back",
-    "description": "Responsive menu page with filtering, favoriting, sorting, and aggregator functionality. Built for Brunch.",
-    "tech": ["React", "CSS"],
+    "description": "Conducted A/B testing on 2 high fidelity prototypes, then generated eye tracking heatmap + replay of gaze motion. Optimized for Egg Tarts.",
+    "tech": ["JavaScript", "Figma"],
     "href": "https://github.com/hungryHippo888/development",
-    "color": "#d7b29d"
+    "color": "#C75260"
   },
   {
     "name": "Hedgehog",
-    "image": "images/figma.jpeg",
+    "image": "HedgehogUI",
     "variant": "hover",
     "front": "hover",
     "back": "Back",
@@ -33,14 +33,14 @@
     "color": "#783F04"
   },
   {
-    "name": "Website A/B Testing",
-    "image": "images/figma.jpeg",
+    "name": "Brock's Breakfast Foods",
+    "image": "brocks-breakfast",
     "variant": "hover",
     "front": "hover",
     "back": "Back",
-    "description": "Conducted A/B testing on 2 high fidelity prototypes, then generated eye tracking heatmap + replay of gaze motion. Optimized for Egg Tarts.",
-    "tech": ["JavaScript", "Figma"],
+    "description": "Responsive menu page with filtering, favoriting, sorting, and aggregator functionality. Built for Brunch.",
+    "tech": ["React", "CSS"],
     "href": "https://github.com/hungryHippo888/development",
-    "color": "#FFEC52"
+    "color": "#d7b29d"
   }
 ]
