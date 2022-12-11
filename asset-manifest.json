@@ -1,23 +1,42 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7c1f8904.css",
-    "main.js": "/portfolio/static/js/main.acd488b7.js",
+    "main.css": "/portfolio/static/css/main.777b4463.css",
+    "main.js": "/portfolio/static/js/main.b939f9ca.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Victory.png": "/portfolio/static/media/Victory.509d14d2dcb8afb56a57.png",
     "static/media/BrockGif.gif": "/portfolio/static/media/BrockGif.474dbb7d38f501b95bd0.gif",
+    "static/media/Clock.png": "/portfolio/static/media/Clock.1b61585c369a1b357849.png",
+    "static/media/EiffelTower.png": "/portfolio/static/media/EiffelTower.beacb3dcb04c9a6cde06.png",
+    "static/media/ArcDeTriomphe.png": "/portfolio/static/media/ArcDeTriomphe.be013be0baf088f07c22.png",
+    "static/media/Chess.png": "/portfolio/static/media/Chess.070a76adc033fa0a5c9d.png",
+    "static/media/Paris.png": "/portfolio/static/media/Paris.8d55b52671b9235253a6.png",
+    "static/media/Pic1.png": "/portfolio/static/media/Pic1.7276d22939a0151ddee5.png",
+    "static/media/Montmartre.png": "/portfolio/static/media/Montmartre.df468bf3ee1527563725.png",
+    "static/media/Pic2.png": "/portfolio/static/media/Pic2.3fbe472a79f89e2ef322.png",
+    "static/media/BritishMuseum.png": "/portfolio/static/media/BritishMuseum.ae9f9f82ac60fee08106.png",
+    "static/media/brocks-breakfast.png": "/portfolio/static/media/brocks-breakfast.f11a58d94ac3fbc08ab7.png",
+    "static/media/A_heatmap.png": "/portfolio/static/media/A_heatmap.ddc2347e755d5a427adb.png",
+    "static/media/B_heatmap.png": "/portfolio/static/media/B_heatmap.68c1113726aed2118c33.png",
+    "static/media/BakeryB.png": "/portfolio/static/media/BakeryB.620142b4d8ee03711ff7.png",
+    "static/media/B.gif": "/portfolio/static/media/B.8536789fd3518ca01ba4.gif",
+    "static/media/A.gif": "/portfolio/static/media/A.1c591f703651b66c0a1c.gif",
     "static/media/BrockInitialUI.png": "/portfolio/static/media/BrockInitialUI.a6a04186beeb01bf881a.png",
+    "static/media/BakeryA.png": "/portfolio/static/media/BakeryA.eff9ec3981fbfb57f9e3.png",
     "static/media/HedgehogProcess.png": "/portfolio/static/media/HedgehogProcess.38c0df6ce243d699019b.png",
     "static/media/HedgehogModal.png": "/portfolio/static/media/HedgehogModal.85edfd22c1891f3d26ef.png",
     "static/media/SpotiflyModal.png": "/portfolio/static/media/SpotiflyModal.f910398ea26363e8c3d4.png",
     "static/media/SpotiflyUI.png": "/portfolio/static/media/SpotiflyUI.6262df34ee9e5c319328.png",
+    "static/media/HedgehogStyleGuide.png": "/portfolio/static/media/HedgehogStyleGuide.b9d6957f9bdb1e32be68.png",
+    "static/media/HedgehogUI.png": "/portfolio/static/media/HedgehogUI.b9d6957f9bdb1e32be68.png",
     "static/media/Helvetica Neue LT Regular.otf": "/portfolio/static/media/Helvetica Neue LT Regular.4fac4fdd603f59b61f9d.otf",
     "static/media/SpotiflyOutput.png": "/portfolio/static/media/SpotiflyOutput.e2eed93ef7b72f70ea95.png",
     "index.html": "/portfolio/index.html",
-    "main.7c1f8904.css.map": "/portfolio/static/css/main.7c1f8904.css.map",
-    "main.acd488b7.js.map": "/portfolio/static/js/main.acd488b7.js.map",
+    "main.777b4463.css.map": "/portfolio/static/css/main.777b4463.css.map",
+    "main.b939f9ca.js.map": "/portfolio/static/js/main.b939f9ca.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c1f8904.css",
-    "static/js/main.acd488b7.js"
+    "static/css/main.777b4463.css",
+    "static/js/main.b939f9ca.js"
   ]
 }
