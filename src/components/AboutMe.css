@@ -19,3 +19,7 @@
     margin: 0;
     transform: scale(2.0); /* Equal to scaleX(0.7) scaleY(0.7) */
   }
+
+.skillsWrapper {
+    display: flex;
+}

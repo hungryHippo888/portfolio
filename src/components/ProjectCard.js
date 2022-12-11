@@ -6,14 +6,7 @@ import ArcDeTriomphe from "../images/photos/ArcDeTriomphe.png";
 
 function ProjectCard({ name, image, description, tech, card, href, color }) {
 
-  // const cardTitle = {
-  //   background: "-webkit-linear-gradient(left, white , " + color + ")",
-  //   webkitBackgroundClip: "text",
-  //   webkitTextFillColor: "transparent",
-  //   fontWeight: "bold",
-  //   fontSize: "2.4rem"
-  // }
-
+  // got hover effect for cards from here: https://dcode.domenade.com/tutorials/image-hover-text-effect-html-css
   return (
     <>
     	<div className="imageCont">

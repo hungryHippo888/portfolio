@@ -2,13 +2,10 @@
   /* display: flex; */
   color: #0F0F11;
   font-size: xx-large;
-  padding-left: 20vh;
-  padding-right: 20vh;
-  padding-top: 15vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10vh;
   background-color: #FFF;
-  /* background-color: #1a1b1f; */
-  padding-bottom: 100px;
-
 }
 
 .container {
@@ -26,7 +23,7 @@
   grid-gap: 20px;
   align-items: center;
   justify-items: center;
-  padding-bottom: 5vh;
+  padding-bottom: 1vh;
   }
 .projectsGrid img {
   /* border: 1px solid #fff; */

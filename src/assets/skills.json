@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Programming Languages",
+    "items": [
+      "Python",
+      "Java",
+      "C",
+      "React",
+      "ReasonML",
+      "Racket",
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  },
+  {
+    "title": "Development Tools",
+    "items": ["AWS Lambda", "Firebase", "Git"]
+  },
+  {
+    "title": "Other Tools and Services",
+    "items": [
+      "Pandas",
+      "Numpy",
+      "Jupyter Notebook",
+      "Figma",
+      "AWS Lambda",
+      "Firebase",
+      "Git",
+      "REST",
+      "OAuth 2.0"
+    ]
+  },
+  {
+    "title": "Interests",
+    "items": [
+      "Chess: ~1800 Peak Rating",
+      "Table Tennis: 2000 Rating",
+      "Photography",
+      "Running",
+      "Cooking",
+      "Basketball",
+      "Tennis"
+    ]
+  }
+]
