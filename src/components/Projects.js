@@ -14,7 +14,7 @@ function Projects() {
       <div className="Projects">
         <h1>Projects</h1>
         <Row style={{ paddingTop: "1vh", paddingBottom: "5vh" }}>
-          Here's what I'm working on right now!
+          Here's what I've been working on!
         </Row>
         <div className="projectsGrid">
         {projectData.map((item) => (
