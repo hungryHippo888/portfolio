@@ -14,6 +14,7 @@
 
 .landingPage {
   height: 100vh;
+  width: fit-content;
 }
 
 h2 {
