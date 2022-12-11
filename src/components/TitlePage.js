@@ -11,7 +11,7 @@ function TitlePage() {
   return (
     <div className="landingPage">
       <div className="title">
-        <h1 className="titleGradient">Hello! I'm Hedgehog,</h1>
+        <h1 className="titleGradient">Hello! I'm Hippo,</h1>
         <h1 className="titleGradient">a Brown University</h1>
         <div className="animatedTyping">
         <Typewriter
