@@ -1,25 +1,66 @@
 .aboutMe {
-    display: flex;
-    flex-direction: column;
-    word-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding-left: 20vw;
-    padding-right: 20vw;
-    color: white;
-    max-height: 100vh;
-    gap: 10vh;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  word-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  color: white;
+  max-height: 100vh;
+  gap: 10vh;
+  text-align: center;
+  padding-bottom: 5vh;
 }
 
 .iframe {
-    padding: 0;
-    padding-top: 2vh;
-    margin: 0;
-    transform: scale(2.0); /* Equal to scaleX(0.7) scaleY(0.7) */
-  }
+  padding: 0;
+  padding-top: 2vh;
+  margin: 0;
+  transform: scale(2); /* Equal to scaleX(0.7) scaleY(0.7) */
+}
 
 .skillsWrapper {
-    display: flex;
+  display: flex;
+}
+
+.imageWrapper2 {
+  background-color: none;
+  width: 75vw;
+  padding-top: 5vh;
+  margin-bottom: 5vh;
+  gap: 0;
+}
+
+.image {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: 20vh;
+  overflow: hidden;
+  border-radius: 20%;
+}
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.animation {
+  /* height: 80%; */
+  width: 15em;
+}
+
+@media (max-width: 1200) {
+  .animation {
+    padding-top: 100px;
+  }
 }

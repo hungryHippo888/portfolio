@@ -9,16 +9,16 @@ import { Link, Route, Routes } from "react-router-dom";
 function NavBar() {
   return (
     <div className="navBar">
-      <Link style={{ textDecoration: "none" }} to="/home">
+      <Link style={{ textDecoration: "none" }} className= "button" to="/portfolio">
         <h3>Home</h3>
       </Link>
-      {/* <Link style={{ textDecoration: "none" }} to="/resume">
-        <h3>Resume</h3>
-      </Link> */}
-      <Link style={{ textDecoration: "none" }} to="/aboutMe">
+      <Link style={{ textDecoration: "none" }} className= "button" to="/projects">
+        <h3>Projects</h3>
+      </Link>
+      <Link style={{ textDecoration: "none" }} className= "button" to="/aboutMe">
         <h3>About Me</h3>
       </Link>
-      <Link style={{ textDecoration: "none" }} to="/photos">
+      <Link style={{ textDecoration: "none" }} className= "button" to="/photos">
         <h3>Photos</h3>
       </Link>
       {/* <div className="gradientBorder"></div> */}

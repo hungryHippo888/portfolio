@@ -2,10 +2,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Row from "react-bootstrap/Row";
 import projectData from "./assets/project-data.json";
-import { React, useEffect} from "react";
+import { React, useEffect } from "react";
 import ProjectCard from "./components/ProjectCard.js";
 import "./styles.scss";
-import { Link, Route, Routes} from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import Projects from "./components/Projects";
 import TitlePage from "./components/TitlePage";
 import NavBar from "./components/NavBar";
@@ -16,10 +16,8 @@ import AboutMe from "./components/AboutMe";
 import Photos from "./components/Photos.js";
 import ABTesting from "./components/ABTesting";
 
-
 function App() {
   return (
-    
     <div className="App">
       <NavBar></NavBar>
       {/* <Projects></Projects> */}
@@ -54,16 +52,14 @@ function App() {
           element={
             <>
               <TitlePage />
-              <Projects />
             </>
           }
         ></Route>
-                <Route
+        <Route
           path="/portfolio"
           element={
             <>
               <TitlePage />
-              <Projects />
             </>
           }
         ></Route>
@@ -72,20 +68,18 @@ function App() {
           element={
             <>
               <TitlePage />
-              <Projects />
             </>
           }
         ></Route>
-        <Route
-          path="/photos"
-          element={
-              <Photos/>
-          }
-        ></Route>
+        <Route path="/photos" element={<Photos />}></Route>
+        <Route path="/projects" element={<Projects />}></Route>
         {/* <Route path="/resume" element={<></>}></Route> */}
         <Route path="/Spotifly" element={<Spotifly></Spotifly>}></Route>
         <Route path="/Hedgehog" element={<Hedgehog></Hedgehog>}></Route>
-        <Route path="/Website-A/B-Testing" element={<ABTesting></ABTesting>}></Route>
+        <Route
+          path="/Website-A/B-Testing"
+          element={<ABTesting></ABTesting>}
+        ></Route>
         <Route path="/AboutMe" element={<AboutMe></AboutMe>}></Route>
         <Route
           path="/Brock's-Breakfast-Foods"

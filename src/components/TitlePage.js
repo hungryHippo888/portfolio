@@ -11,17 +11,17 @@ function TitlePage() {
   return (
     <div className="landingPage">
       <div className="title">
-        <h1 className="titleGradient">Hello! I'm Hippo,</h1>
+        <h1 className="titleGradient">Hello! I'm Michael Fu,</h1>
         <h1 className="titleGradient">a Brown University</h1>
         <div className="animatedTyping">
         <Typewriter
           options={{
-            strings: ["student.", "developer.", "photographer.", "data scientist"],
+            strings: ["student.", "developer.", "photographer.", "data scientist."],
             autoStart: true,
             loop: true,
             pauseFor: 2000,
-            delay: "125",
-            deleteSpeed: "105",
+            delay: "115",
+            deleteSpeed: "85",
             skipAddStyles: "true"
           }}
         />

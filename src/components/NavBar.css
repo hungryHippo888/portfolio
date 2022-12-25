@@ -16,4 +16,13 @@
   h3 {
     color: white;
   }
-  
+.button {
+  padding: 0.5%;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #303234;
+  transition: 0.5s ease;
+  opacity:0.6; 
+}  

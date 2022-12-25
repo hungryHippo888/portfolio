@@ -1,7 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 import { React, useState } from "react";
 import "../styles.scss";
 import "../App.css";
@@ -9,6 +7,8 @@ import "./AboutMe.css";
 import { Link, Route, Routes } from "react-router-dom";
 import skillsData from "../assets/skills.json";
 import SkillsCard from "./SkillsCard";
+import Headshot from "../images/headshot.jpeg";
+import Animation from "../images/animation.gif";
 
 function AboutMe() {
   const skillsCard = {
@@ -24,15 +24,18 @@ function AboutMe() {
 
   return (
     <div className="aboutMe">
-      <div style={{ backgroundColor: "none", position: "relative" }}>
+      <div style={{ backgroundColor: "none", position: "relative" }} className="imageWrapper2">
         {/* <iframe src="https://embed.lottiefiles.com/animation/53887" title="hello"></iframe>    */}
-        <iframe
-          src="https://embed.lottiefiles.com/animation/9911"
+        {/* <iframe
+          // src="https://embed.lottiefiles.com/animation/9911"
+          src={Animation}
           className="iframe"
           title="animation"
-        ></iframe>
+        ></iframe> */}
+        {/* <Image src={Headshot} className="circular--landscape"></Image> */}
+        <img src={Animation} alt="animation" className="animation"></img>
       </div>
-      <h2 className="titleGradient">Hello. I'm Hippo.</h2>
+      <h2 className="titleGradient">Hello. I'm Michael.</h2>
       <p>
         I'm a second year student at Brown University studying Computer Science.
         At school, I'm an TA for our Data Structures and Algorithms course and a
