@@ -12,9 +12,9 @@ function Projects() {
   return (
     <>
       <div className="Projects">
-        <h1>Projects</h1>
+        <h1 style={{fontSize: "4rem"}}>Projects</h1>
         <Row style={{ paddingTop: "1vh", paddingBottom: "5vh" }}>
-          Here's what I've been working on!
+          <h4>Here's what I've been working on!</h4>
         </Row>
         <div className="projectsGrid">
         {projectData.map((item) => (

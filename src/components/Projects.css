@@ -1,6 +1,6 @@
 .Projects {
-  /* display: flex; */
-  width: fit-content;
+  display: block;
+  max-width: 100vw;
   height: fit-content;
   color: #FFF;
   font-size: xx-large;
@@ -17,6 +17,7 @@
   column-gap: 10vw;
   flex-wrap: wrap;
   padding-bottom: 5vh;
+  
 }
 
 .projectsGrid { 
@@ -25,6 +26,8 @@
   grid-gap: 20px;
   align-items: center;
   justify-items: center;
+  justify-content: center;
+  text-align: center;
   padding-bottom: 5vh;
   }
 .projectsGrid img {
@@ -32,4 +35,37 @@
 
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   max-width: 100%;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  html {
+    font-size: 14px;
+}
+
+.Projects {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 999px) {
+  html {
+    font-size: 10px;
+}
+
+.Projects {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  html {
+    font-size: 10px;
+}
+
+.Projects {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
 }

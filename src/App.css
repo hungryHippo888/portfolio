@@ -10,6 +10,7 @@
     Helvetica, Arial, "Lucida Grande", sans-serif;
   padding: 0;
   margin: 0;
+  /* width: 100vw; */
 }
 
 .landingPage {
@@ -30,7 +31,7 @@ h2 {
   /* text-align: justify; */
   color: #fff;
   margin: auto;
-  padding: 20vh;
+  padding: 6vw;
   padding-top: 15vh;
   gap: 0px;
   font-size: 2.5em;
@@ -92,4 +93,37 @@ h2 {
   background: linear-gradient(to right, red, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+  html {
+      font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  html {
+      font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+  html {
+      font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 599px) {
+  html {
+      font-size: 8px;
+  }
+
+  .App {
+    max-width: 90vw;
+    padding: 0;
+  }
 }
