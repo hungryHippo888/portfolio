@@ -15,6 +15,7 @@ import Hedgehog from "./components/Hedgehog";
 import AboutMe from "./components/AboutMe";
 import Photos from "./components/Photos.js";
 import ABTesting from "./components/ABTesting";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -68,6 +69,14 @@ function App() {
           element={
             <>
               <TitlePage />
+            </>
+          }
+        ></Route>
+                <Route
+          path="/experience"
+          element={
+            <>
+              <Experience />
             </>
           }
         ></Route>

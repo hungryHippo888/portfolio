@@ -9,11 +9,11 @@ import { Link, Route, Routes } from "react-router-dom";
 function NavBar() {
   return (
     <div className="navBar">
-      <Link style={{ textDecoration: "none" }} className= "button" to="/portfolio">
-        <h3>Home</h3>
-      </Link>
       <Link style={{ textDecoration: "none" }} className= "button" to="/projects">
         <h3>Projects</h3>
+      </Link>
+      <Link style={{ textDecoration: "none" }} className= "button" to="/experience">
+        <h3>Experience</h3>
       </Link>
       <Link style={{ textDecoration: "none" }} className= "button" to="/aboutMe">
         <h3>About Me</h3>
