@@ -27,7 +27,7 @@ function Experience() {
           <div className="experienceCard">
           <h2>Skills</h2>
           {Skills.map((items) => (
-              <div>
+              <div style={{display: "grid", gap: "3vh"}}>
                 <p style={{ fontWeight: "bold" }}>{items.title}</p>
                 <div className="skillsWrapper">
                 {Object.values(items.items).map((data) => (
@@ -39,8 +39,8 @@ function Experience() {
           </div>
         </Row>
         <Row>
+        <div className="experienceCard">
           <h2>Education</h2>
-          <div className="experienceCard">
             {Education.map((items) => (
               <div>
                 <p style={{ fontWeight: "bold" }}>{items.role}</p>

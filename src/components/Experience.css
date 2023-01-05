@@ -3,6 +3,7 @@
     max-width: 100vw;
     padding-left: 10vw;
     padding-right: 10vw;
+    padding-bottom: 5vw;
 }
 
 p {
@@ -12,6 +13,7 @@ p {
 .experienceCard {
     display: grid;
     gap: 3vh;
+    padding-bottom: 3vh;
 }
 
 .itemDescription {
