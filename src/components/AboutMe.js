@@ -36,7 +36,7 @@ function AboutMe() {
         <img src={Animation} alt="animation" className="animation"></img>
       </div>
       <h2 className="titleGradient">Hello. I'm Michael.</h2>
-      <p style={{fontSize: "1.2rem"}}>
+      <p style={{fontSize: "1.35rem"}}>
         I'm a second year student at Brown University studying Computer Science.
         At school, I'm an TA for our Data Structures and Algorithms course and a
         leading a project for a Fortune 500 Telecommunications Company for Brown

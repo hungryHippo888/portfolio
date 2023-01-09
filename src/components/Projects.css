@@ -59,13 +59,24 @@
 }
 }
 
-@media only screen and (min-width: 1px) and (max-width: 700px) {
+@media only screen and (min-width: 1px) and (max-width: 999px) {
   html {
     font-size: 10px;
 }
 
 .Projects {
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
+
+.projectsGrid { 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 5vh;
+  }
 }

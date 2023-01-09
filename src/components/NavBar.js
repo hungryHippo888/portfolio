@@ -7,21 +7,25 @@ import "./NavBar.css";
 import { Link, Route, Routes } from "react-router-dom";
 
 function NavBar() {
+  const [currentLink, setCurrentLink] = useState('');
+
+  const currStyle = {color: "#FFF"};
+  const defaultStyle = {textDecoration: "none"};
+
   return (
     <div className="navBar">
-      <Link style={{ textDecoration: "none" }} className= "button" to="/projects">
+      <Link style={ currentLink === 'projects' ? currStyle : defaultStyle } className= "button" to="/projects" onClick={() => setCurrentLink('projects')}>
         <h3>Projects</h3>
       </Link>
-      <Link style={{ textDecoration: "none" }} className= "button" to="/experience">
+      <Link style={ currentLink === 'experience' ? currStyle : defaultStyle } className= "button" to="/experience" onClick={() => setCurrentLink('experience')}>
         <h3>Experience</h3>
       </Link>
-      <Link style={{ textDecoration: "none" }} className= "button" to="/aboutMe">
+      <Link style={ currentLink === 'aboutMe' ? currStyle : defaultStyle } className= "button" to="/aboutMe" onClick={() => setCurrentLink('aboutMe')}>
         <h3>About Me</h3>
       </Link>
-      <Link style={{ textDecoration: "none" }} className= "button" to="/photos">
+      <Link style={ currentLink === 'photos' ? currStyle : defaultStyle } className= "button" to="/photos" onClick={() => setCurrentLink('photos')}>
         <h3>Photos</h3>
       </Link>
-      {/* <div className="gradientBorder"></div> */}
     </div>
   );
 }

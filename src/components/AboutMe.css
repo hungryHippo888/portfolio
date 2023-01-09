@@ -5,8 +5,8 @@
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 12vw;
+  padding-right: 12vw;
   color: white;
   /* max-height: 100vh */
   height: max-content;
@@ -63,5 +63,55 @@
 @media (max-width: 1200) {
   .animation {
     padding-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    word-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: white;
+    /* max-height: 100vh */
+    height: max-content;
+    gap: 5vh;
+    text-align: center;
+    padding-bottom: 5vh;
+  }
+
+  .titleGradient {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 2.8rem !important;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 499px) {
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    word-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: white;
+    /* max-height: 100vh */
+    height: max-content;
+    gap: 5vh;
+    text-align: center;
+    padding-bottom: 5vh;
+  }
+
+  p {
+    font-size: 1.6rem !important;
   }
 }
