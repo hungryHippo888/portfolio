@@ -1,5 +1,25 @@
 [
   {
+    "name": "iPortfolio",
+    "image": "iPortfolio",
+    "variant": "hover",
+    "front": "hover",
+    "back": "Back",
+    "description": "Portfolio growth estimation via Monte Carlo Simulation.",
+    "tech": ["Python"],
+    "color": "#1DB954"
+  },
+  {
+    "name": "WorkoutCV",
+    "image": "WorkoutCV",
+    "variant": "hover",
+    "front": "hover",
+    "back": "Back",
+    "description": "Personal Workout Buddy. Helping achieve first-year resolutions.",
+    "tech": ["Python"],
+    "color": "#1DB954"
+  },
+  {
     "name": "Spotifly",
     "image": "SpotiflyOutput",
     "variant": "hover",
@@ -7,7 +27,6 @@
     "back": "Back",
     "description": "Song-guessing Spotify Wordle Variant. Personalized for you.",
     "tech": ["React", "CSS", "REST API"],
-    "href": "https://github.com/hungryHippo888/development",
     "color": "#1DB954"
   },
   {
@@ -18,7 +37,6 @@
     "back": "Back",
     "description": "Conducted A/B testing on 2 high fidelity prototypes, then generated eye tracking heatmap + replay of gaze motion. Optimized for Egg Tarts.",
     "tech": ["JavaScript", "Figma"],
-    "href": "https://github.com/hungryHippo888/development",
     "color": "#C75260"
   },
   {
@@ -29,7 +47,6 @@
     "back": "Back",
     "description": "High-fidelity prototype for Hedgehog, an AI-driven mushroom farming startup. Mushrooms.",
     "tech": ["Figma", "Balsamiq"],
-    "href": "https://github.com/hungryHippo888/development",
     "color": "#783F04"
   },
   {
@@ -40,7 +57,6 @@
     "back": "Back",
     "description": "Responsive menu page with filtering, favoriting, sorting, and aggregator functionality. Built for Brunch.",
     "tech": ["React", "CSS"],
-    "href": "https://github.com/hungryHippo888/development",
     "color": "#d7b29d"
   }
 ]
