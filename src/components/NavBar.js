@@ -5,7 +5,7 @@ import "../styles.scss";
 import "../App.css";
 import "./NavBar.css";
 import { Link, Route, Routes } from "react-router-dom";
-// import { HashLink as HLink } from 'react-router-hash-link';
+import { HashLink as HLink } from 'react-router-hash-link';
 import Logo from "../images/MF-logo.png";
 
 function NavBar() {
@@ -17,7 +17,7 @@ function NavBar() {
   return (
     <div className="navBar">
       <div className="navBar-left">
-        <Link
+        <HLink
           className="button"
           to="/portfolio"
           onClick={() => setCurrentLink("portfolio")}
@@ -27,41 +27,41 @@ function NavBar() {
             style={{ height: "50px", width: "50px" }}
             alt="website logo"
           ></img>
-        </Link>
+        </HLink>
       </div>
       <div className="navBar-right">
-        <Link
+        <HLink
           style={currentLink === "photos" ? currStyle : defaultStyle}
           className="button"
           to="/photos"
           onClick={() => setCurrentLink("photos")}
         >
           <h3>Photos</h3>
-        </Link>
-        <Link
+        </HLink>
+        <HLink
           style={currentLink === "aboutMe" ? currStyle : defaultStyle}
           className="button"
           to="/aboutMe"
           onClick={() => setCurrentLink("aboutMe")}
         >
           <h3>About Me</h3>
-        </Link>
-        <Link
+        </HLink>
+        <HLink
           style={currentLink === "experience" ? currStyle : defaultStyle}
           className="button"
           to="/experience"
           onClick={() => setCurrentLink("experience")}
         >
           <h3>Experience</h3>
-        </Link>
-        <Link
+        </HLink>
+        <HLink
           style={currentLink === "projects" ? currStyle : defaultStyle}
           className="button"
           to="/projects"
           onClick={() => setCurrentLink("projects")}
         >
           <h3>Projects</h3>
-        </Link>
+        </HLink>
       </div>
     </div>
   );
