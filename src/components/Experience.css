@@ -3,7 +3,7 @@
     max-width: 100vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    padding-bottom: 5vw;
+    padding-bottom: 2vw;
 }
 
 p {
@@ -38,3 +38,36 @@ p {
     flex-wrap: wrap;
     gap: 1rem;
 }
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+    html {
+      font-size: 14px;
+  }
+  
+  .Projects {
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  }
+  
+  @media only screen and (min-width: 1000px) and (max-width: 1300px) {
+    html {
+      font-size: 14px;
+  }
+  
+  .ExperienceWrapper {
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  }
+  
+  @media only screen and (min-width: 1px) and (max-width: 999px) {
+    html {
+      font-size: 10px;
+  }
+  
+  .ExperienceWrapper {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  }
