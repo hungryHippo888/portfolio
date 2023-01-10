@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f1d4cea7.css",
-    "main.js": "/portfolio/static/js/main.771d8a41.js",
+    "main.css": "/portfolio/static/css/main.9107b926.css",
+    "main.js": "/portfolio/static/js/main.accf65b4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Victory.png": "/portfolio/static/media/Victory.509d14d2dcb8afb56a57.png",
     "static/media/BrockGif.gif": "/portfolio/static/media/BrockGif.474dbb7d38f501b95bd0.gif",
@@ -18,6 +18,7 @@
     "static/media/brocks-breakfast.png": "/portfolio/static/media/brocks-breakfast.f11a58d94ac3fbc08ab7.png",
     "static/media/A_heatmap.png": "/portfolio/static/media/A_heatmap.ddc2347e755d5a427adb.png",
     "static/media/B_heatmap.png": "/portfolio/static/media/B_heatmap.68c1113726aed2118c33.png",
+    "static/media/WorkoutCV.png": "/portfolio/static/media/WorkoutCV.42ce17424ad2f7cd204a.png",
     "static/media/BakeryB.png": "/portfolio/static/media/BakeryB.620142b4d8ee03711ff7.png",
     "static/media/B.gif": "/portfolio/static/media/B.8536789fd3518ca01ba4.gif",
     "static/media/A.gif": "/portfolio/static/media/A.1c591f703651b66c0a1c.gif",
@@ -26,19 +27,25 @@
     "static/media/animation.gif": "/portfolio/static/media/animation.2bca71179bfe380c96c3.gif",
     "static/media/HedgehogProcess.png": "/portfolio/static/media/HedgehogProcess.38c0df6ce243d699019b.png",
     "static/media/HedgehogModal.png": "/portfolio/static/media/HedgehogModal.85edfd22c1891f3d26ef.png",
+    "static/media/iPortfolio.png": "/portfolio/static/media/iPortfolio.dc081ef0f29d93bb341f.png",
+    "static/media/MF-logo.png": "/portfolio/static/media/MF-logo.4825be32834bdda7a7e4.png",
     "static/media/SpotiflyModal.png": "/portfolio/static/media/SpotiflyModal.f910398ea26363e8c3d4.png",
+    "static/media/MF-logos_transparent.png": "/portfolio/static/media/MF-logos_transparent.fc43103255a75563ce57.png",
     "static/media/SpotiflyUI.png": "/portfolio/static/media/SpotiflyUI.6262df34ee9e5c319328.png",
+    "static/media/MF-logos_white.png": "/portfolio/static/media/MF-logos_white.d6375015af560fc5e8ea.png",
+    "static/media/MF-logos_black.png": "/portfolio/static/media/MF-logos_black.66ede04e78ba3a478dbd.png",
     "static/media/HedgehogStyleGuide.png": "/portfolio/static/media/HedgehogStyleGuide.b9d6957f9bdb1e32be68.png",
     "static/media/HedgehogUI.png": "/portfolio/static/media/HedgehogUI.b9d6957f9bdb1e32be68.png",
+    "static/media/whiteBG.png": "/portfolio/static/media/whiteBG.563d80c9ac1c57286a88.png",
     "static/media/Helvetica Neue LT Regular.otf": "/portfolio/static/media/Helvetica Neue LT Regular.4fac4fdd603f59b61f9d.otf",
     "static/media/SpotiflyOutput.png": "/portfolio/static/media/SpotiflyOutput.e2eed93ef7b72f70ea95.png",
     "index.html": "/portfolio/index.html",
-    "main.f1d4cea7.css.map": "/portfolio/static/css/main.f1d4cea7.css.map",
-    "main.771d8a41.js.map": "/portfolio/static/js/main.771d8a41.js.map",
+    "main.9107b926.css.map": "/portfolio/static/css/main.9107b926.css.map",
+    "main.accf65b4.js.map": "/portfolio/static/js/main.accf65b4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1d4cea7.css",
-    "static/js/main.771d8a41.js"
+    "static/css/main.9107b926.css",
+    "static/js/main.accf65b4.js"
   ]
 }
