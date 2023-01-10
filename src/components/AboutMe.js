@@ -24,7 +24,10 @@ function AboutMe() {
 
   return (
     <div className="aboutMe">
-      <div style={{ backgroundColor: "none", position: "relative" }} className="imageWrapper2">
+      <div
+        style={{ backgroundColor: "none", position: "relative" }}
+        className="imageWrapper2"
+      >
         {/* <iframe src="https://embed.lottiefiles.com/animation/53887" title="hello"></iframe>    */}
         {/* <iframe
           // src="https://embed.lottiefiles.com/animation/9911"
@@ -36,15 +39,16 @@ function AboutMe() {
         <img src={Animation} alt="animation" className="animation"></img>
       </div>
       <h2 className="titleGradient">Hello. I'm Michael.</h2>
-      <p style={{fontSize: "1.35rem"}}>
-        I'm a second year student at Brown University studying Computer Science.
-        At school, I'm an TA for our Data Structures and Algorithms course and a
-        leading a project for a Fortune 500 Telecommunications Company for Brown
-        Consulting Club. I have prior professional experiences within venture
-        capital and startups. Outside of coursework, I'm also a competitive
-        chess player, compete on Brown's table tennis team, and play intramural
-        basketball. I'm currently seeking summer opportunities where I can
-        leverage my skills in a software engineering or data analytics role.
+      <p style={{ fontSize: "1.35rem" }}>
+        I'm a second year student at Brown University studying Computer
+        Science-Economics. At school, I'm an TA for our Data Structures and
+        Algorithms course and leading a project for a Fortune 15
+        Telecommunications Company for Brown Consulting Club. Outside of
+        coursework, I'm also a competitive chess player, compete on Brown's
+        table tennis team, and play intramural basketball. I have a deep
+        interest in software and data and I'm currently seeking summer
+        opportunities where I can leverage my skills in a software engineering,
+        data science, or quantitative finance role.
       </p>
       {/* <h2>Skills</h2>
       <div className="skillsWrapper">

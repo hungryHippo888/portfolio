@@ -14,6 +14,10 @@ function Experience() {
         <Row>
           <div className="experienceCard">
           <h2>Experience</h2>
+          <Row style={{ paddingTop: "1vh", paddingBottom: "2vh", color: "#FFF" }}>
+          <h4>I have prior professional experiences ranging from
+        working in venture capital to multi-billion dollar companies.</h4>
+        </Row>
             {Roles.map((items) => (
               <div>
                 <p style={{ fontWeight: "bold" }}>{items.role}</p>
@@ -31,7 +35,9 @@ function Experience() {
                 <p style={{ fontWeight: "bold" }}>{items.title}</p>
                 <div className="skillsWrapper">
                 {Object.values(items.items).map((data) => (
-                    <div className="skillsCard">{data}</div>
+                    <div className="skillsCard">
+                      <p style={{ fontWeight: "500" }}>{data}</p>
+                      </div>
                 ))}
                 </div>
               </div>

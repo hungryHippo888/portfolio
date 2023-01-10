@@ -18,13 +18,13 @@ function Projects() {
         </Row>
         <div className="projectsGrid">
         {projectData.map((item) => (
-          <Link
-            style={{ textDecoration: "none" }}
-            to={`/${item.name.replace(/\s+/g, "-")}`}
-            onClick={() => {
-              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-            }}
-          >
+          // <Link
+          //   style={{ textDecoration: "none" }}
+          //   to={`/${item.name.replace(/\s+/g, "-")}`}
+          //   onClick={() => {
+          //     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+          //   }}
+          // >
             <ProjectCard
               card={item}
               name={item.name}
@@ -34,7 +34,7 @@ function Projects() {
               href={item.href}
               color={item.color}
             ></ProjectCard>
-          </Link>
+          // </Link>
         ))}
         </div>
       </div>
