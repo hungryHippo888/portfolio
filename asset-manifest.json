@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2b3bc034.css",
+    "main.css": "/portfolio/static/css/main.85c652dd.css",
     "main.js": "/portfolio/static/js/main.8b522800.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Victory.png": "/portfolio/static/media/Victory.509d14d2dcb8afb56a57.png",
@@ -40,12 +40,12 @@
     "static/media/Helvetica Neue LT Regular.otf": "/portfolio/static/media/Helvetica Neue LT Regular.4fac4fdd603f59b61f9d.otf",
     "static/media/SpotiflyOutput.png": "/portfolio/static/media/SpotiflyOutput.e2eed93ef7b72f70ea95.png",
     "index.html": "/portfolio/index.html",
-    "main.2b3bc034.css.map": "/portfolio/static/css/main.2b3bc034.css.map",
+    "main.85c652dd.css.map": "/portfolio/static/css/main.85c652dd.css.map",
     "main.8b522800.js.map": "/portfolio/static/js/main.8b522800.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b3bc034.css",
+    "static/css/main.85c652dd.css",
     "static/js/main.8b522800.js"
   ]
 }
