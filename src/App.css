@@ -3,6 +3,10 @@
   src: url("./Helvetica Neue LT Regular.otf") format("opentype");
 }
 
+html, body {
+  background-color: #0f0f11;
+}
+
 .App {
   background-color: #0f0f11;
   /* font-family: "HelveticaNeueLT", "Arial", sans-serif; */
