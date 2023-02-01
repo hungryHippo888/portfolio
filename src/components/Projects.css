@@ -68,6 +68,7 @@
 .Projects {
   padding-left: 5vw;
   padding-right: 5vw;
+  /* width: 100vw; */
 }
 
 .projectsGrid { 

@@ -39,17 +39,6 @@ p {
     gap: 1rem;
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1300px) {
-    html {
-      font-size: 14px;
-  }
-  
-  .Projects {
-    padding-left: 8vw;
-    padding-right: 8vw;
-  }
-  }
-  
   @media only screen and (min-width: 1000px) and (max-width: 1300px) {
     html {
       font-size: 14px;

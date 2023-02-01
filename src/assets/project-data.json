@@ -1,5 +1,16 @@
 [
   {
+    "name": "ScavengerAR",
+    "image": "ScavengerAR1",
+    "variant": "hover",
+    "front": "hover",
+    "back": "Back",
+    "description": "Creating AR Experiences. One scavenger hunt at a time.",
+    "tech": ["React", "AR.js"],
+    "color": "#462515",
+    "url": "https://montecarlosimulation.streamlit.app/"
+  },
+  {
     "name": "iPortfolio",
     "image": "iPortfolio",
     "variant": "hover",
