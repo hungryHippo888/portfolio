@@ -40,15 +40,18 @@ function AboutMe() {
       </div>
       <h2 className="titleGradient">Hello. I'm Michael.</h2>
       <p style={{ fontSize: "1.35rem" }}>
-        I'm a second year student at Brown University studying Computer
-        Science-Economics. At school, I'm an TA for our Data Structures and
-        Algorithms course and leading a project for a Fortune 15
-        Telecommunications Company for Brown Consulting Club. Outside of
-        coursework, I'm also a competitive chess player, compete on Brown's
-        table tennis team, and play intramural basketball. I have a deep
-        interest in software and data and I'm currently seeking summer
-        opportunities where I can leverage my skills in a software engineering,
-        data science, or quantitative finance role.
+        I'm a third year student at Brown University studying Computer Science
+        and Economics. I'm currently the Founding Engineer of an Edtech startup
+        that reaches 400,000+ monthly impressions. I have prior experience
+        leading technical consulting projects for clients ranging from AT&T to
+        healthtech startups. I also previously played with robots as a
+        researcher within our Robotics Lab. At school, I am a teaching assistant
+        for our Introduction to Systems Course, am captain of the Brown Table
+        Tennis Team, and compete on the Brown Chess Team. I enjoy tackling
+        difficult problems, and enjoy working with others to tackle difficult
+        problems even more. I have a deep interest in technology and I'm
+        currently seeking summer opportunities where I can leverage my skills in
+        the technology or quantiative finance space.
       </p>
       {/* <h2>Skills</h2>
       <div className="skillsWrapper">
