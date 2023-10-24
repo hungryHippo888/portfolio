@@ -1,9 +1,21 @@
 [
   {
-    "role": "Undergraduate Teaching Assistant",
+    "role": "Founding Engineer",
+    "employer": "Stealth Startup",
+    "location": "Providence, Rhode Island",
+    "description": "Building core infrastructure at an edtech startup that reaches 400,000+ monthly impressions."
+  },
+  {
+    "role": "Undergraduate Teaching Assistant (x2)",
     "employer": "Brown University",
     "location": "Providence, Rhode Island",
-    "description": "I was selected to TA CS0200, Brown's Data Structures and Algorithms course. I work 10 hours a week holding office hours for ~100 students, holding lab for 20+ students per week on concepts such as Regex, dynamic programming, and memory/runtime analysis, and answering student questions on edStem."
+    "description": "I currently TA Introduction to Systems (CS0330), taught in C. I am a previous TA for Introduction to Data Structures and Algorithms (CS0200), taught in Java and Python."
+  },
+  {
+    "role": "Undergraduate Researcher",
+    "employer": "Humans To Robots Lab",
+    "location": "Providence, Rhode Island",
+    "description": "I co-engineered Unity software for communicating and controlling SPOT robot arm motion intent through virtual reality headsets."
   },
   {
     "role": "Applications Intern",
