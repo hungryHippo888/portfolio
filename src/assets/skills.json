@@ -3,8 +3,10 @@
     "title": "Programming Languages",
     "items": [
       "Python",
-      "Java",
       "C",
+      "Java",
+      "Next.js",
+      "Javacript",
       "React",
       "ReasonML",
       "Racket",
@@ -34,8 +36,8 @@
   {
     "title": "Interests",
     "items": [
-      "Chess: ~1800 Peak Rating",
-      "Table Tennis: 2000 Rating",
+      "Chess: ~1800 Rating",
+      "Table Tennis: ~2200 Rating",
       "Photography",
       "Running",
       "Cooking",
