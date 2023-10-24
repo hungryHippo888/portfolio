@@ -1,5 +1,16 @@
 [
   {
+    "name": "Weenix",
+    "image": "Weenix",
+    "variant": "hover",
+    "front": "hover",
+    "back": "Back",
+    "description": "Built Unix-based OS from scratch.",
+    "tech": ["C", "Unix"],
+    "color": "#de7402",
+    "url": ""
+  },
+  {
     "name": "ScavengerAR",
     "image": "ScavengerAR1",
     "variant": "hover",
@@ -8,7 +19,7 @@
     "description": "Creating AR Experiences. One scavenger hunt at a time.",
     "tech": ["React", "AR.js"],
     "color": "#462515",
-    "url": "https://montecarlosimulation.streamlit.app/"
+    "url": ""
   },
   {
     "name": "iPortfolio",
