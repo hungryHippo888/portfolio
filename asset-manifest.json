@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.40a948cd.css",
-    "main.js": "/portfolio/static/js/main.61cdbe1c.js",
+    "main.js": "/portfolio/static/js/main.d4bcfba5.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Victory.png": "/portfolio/static/media/Victory.509d14d2dcb8afb56a57.png",
     "static/media/BrockGif.gif": "/portfolio/static/media/BrockGif.474dbb7d38f501b95bd0.gif",
@@ -38,16 +38,17 @@
     "static/media/HedgehogStyleGuide.png": "/portfolio/static/media/HedgehogStyleGuide.b9d6957f9bdb1e32be68.png",
     "static/media/HedgehogUI.png": "/portfolio/static/media/HedgehogUI.b9d6957f9bdb1e32be68.png",
     "static/media/ScavengerAR2.png": "/portfolio/static/media/ScavengerAR2.1d0bc30a6a773290c8ba.png",
+    "static/media/Weenix.png": "/portfolio/static/media/Weenix.05b7692611a72bcc6a47.png",
     "static/media/whiteBG.png": "/portfolio/static/media/whiteBG.563d80c9ac1c57286a88.png",
     "static/media/Helvetica Neue LT Regular.otf": "/portfolio/static/media/Helvetica Neue LT Regular.4fac4fdd603f59b61f9d.otf",
     "static/media/SpotiflyOutput.png": "/portfolio/static/media/SpotiflyOutput.e2eed93ef7b72f70ea95.png",
     "index.html": "/portfolio/index.html",
     "main.40a948cd.css.map": "/portfolio/static/css/main.40a948cd.css.map",
-    "main.61cdbe1c.js.map": "/portfolio/static/js/main.61cdbe1c.js.map",
+    "main.d4bcfba5.js.map": "/portfolio/static/js/main.d4bcfba5.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40a948cd.css",
-    "static/js/main.61cdbe1c.js"
+    "static/js/main.d4bcfba5.js"
   ]
 }
